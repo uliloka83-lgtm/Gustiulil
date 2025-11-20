@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | Cita Rasa MARON</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Cita Rasa MARON</a>
+            <nav class="nav-links">
+                <a href="index.html">Beranda</a>
+                <a href="products.html">Produk</a>
+                <a href="about.html">Tentang Kami</a>
+                <a href="contact.html">Kontak</a>
+                <a href="contact.html" class="btn-order">Pesan Sekarang</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page active" id="home-page">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Cita Rasa Terbaik dari SMAN 1 MARON</h1>
+                <p>Nikmati kelezatan premium, hasil karya siswa-siswi Tata Boga terbaik dengan kualitas terjamin.</p>
+                <div class="cta-buttons">
+                    <a href="products.html" class="btn btn-primary">Lihat Produk Kami</a>
+                    <a href="about.html" class="btn btn-secondary">Tentang Kami</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-birthday-cake food-icon" style="color:#F9D97C;"></i>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="highlights-container">
+                <div class="highlight-card">
+                    <i class="fas fa-medal highlight-icon" style="color:#FFD700;"></i>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>Dibuat dengan standar kebersihan dan bahan baku premium.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-hand-holding-heart highlight-icon" style="color:#E91E63;"></i>
+                    <h3>Dibuat dengan Hati</h3>
+                    <p>Setiap produk kami adalah hasil dari praktik belajar yang penuh semangat.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-truck highlight-icon" style="color:#4CAF50;"></i>
+                    <h3>Pemesanan Mudah</h3>
+                    <p>Layanan pesan-antar tersedia untuk wilayah sekitar Maron dan sekitarnya.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="testimonials">
+            <h2 class="section-title">Apa Kata Mereka?</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <p>"Kue Red Velvet-nya benar-benar enak! Lembut dan *cream cheese*-nya pas, tidak terlalu manis."</p>
+                    <span class="testimonial-author">- Ibu Rina, Guru</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Presentasi kuenya sangat profesional. Kualitas setara toko kue mahal!"</p>
+                    <span class="testimonial-author">- Bpk. Agung, Pelanggan</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Saya bangga dengan hasil karya siswa SMAN 1 Maron. Terus tingkatkan!"</p>
+                    <span class="testimonial-author">- Kepala Sekolah</span>
+                </div>
+            </div>
+        </section>
+        
+    <main class="page active" id="products-page">
+    <section class="products">
+        <h2 class="section-title">Koleksi Produk Terbaik Kami</h2>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">Semua</button>
+            <button class="filter-btn" data-category="cake">Kue Ulang Tahun</button>
+            <button class="filter-btn" data-category="pastry">Pastry & Roti</button>
+            <button class="filter-btn" data-category="cookies">Kue Kering</button>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card" data-category="cake">
+                <div class="product-image">
+                    <i class="fas fa-cake-candles" style="color:#F5B041;"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Black Forest</h3>
+                    <p>Kue cokelat legendaris dengan ceri dan krim vanilla.</p>
+                    <div class="product-price">Rp 280.000</div>
+                    <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Pesan Sekarang</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="pastry">
+                <div class="product-image">
+                    <i class="fas fa-bread-slice" style="color:#B03A2E;"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Croissant Almond</h3>
+                    <p>Pastry berlapis renyah dengan isian krim dan taburan almond.</p>
+                    <div class="product-price">Rp 25.000</div>
+                    <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Pesan Sekarang</a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cookies">
+                <div class="product-image">
+                    <i class="fas fa-cookie-bite" style="color:#D4AC0D;"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Nastar Premium</h3>
+                    <p>Kue nanas klasik dengan mentega Wijsman asli.</p>
+                    <div class="product-price">Rp 120.000 / Toples</div>
+                    <a href="contact.html" class="btn btn-secondary" style="width: 100%;">Pesan Sekarang</a>
+                </div>
+            </div>
+            
+            </div>
+    </section>
+</main>
